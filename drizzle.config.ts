@@ -1,4 +1,5 @@
 import 'dotenv/config';
+console.log(process.env.DATABASE_URL);
 import { defineConfig } from "drizzle-kit";
 
 if (!process.env.DATABASE_URL) {
